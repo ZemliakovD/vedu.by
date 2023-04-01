@@ -106,6 +106,10 @@ a{
     margin-bottom: 70px;
 }
 
+.main-banner img{
+    width: 100%;
+}
+
 .button-panel{
     display: flex;
     align-items: center;
@@ -726,4 +730,254 @@ a{
 
 .footer-bottom a{
     color: #f5f5f5;
+}
+
+/* Устройства Medium (планшеты, менее 992 пикселей) */
+@media (max-width: 992px) {
+
+}
+
+/* Устройства Small (телефоны с горизонтальной ориентацией, менее 768 пикселей) */
+@media (max-width: 768px) {
+
+}
+
+/* Устройства X-Small (портретные телефоны, менее 576 пикселей) */
+@media (max-width: 576px) {
+    .main-info{
+        flex-direction: column;
+    }
+
+    .main-content-info{
+        margin-bottom: 50px;
+    }
+
+    .main-title{
+        font-size: 41px;
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+
+    .button-panel{
+        flex-direction: column;
+    }
+
+    .main-button{
+        width: 100%;
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+
+    .button-description{
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .banner{
+        margin-bottom: 75px;
+    }
+
+    .banner-inner{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .banner-text{
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .super{
+        margin-bottom: 75px;
+    }
+
+    .subtitle{
+        font-size: 40px;
+        line-height: 20px;
+    }
+
+    .super-cards{
+        flex-direction: column;
+    }
+
+    .super-cards-item{
+        width: 100%;
+        margin: 0 auto;
+        min-height: fit-content;
+        margin-bottom: 30px;
+    }
+
+    .partfotio{
+        border: none;
+    }
+
+    .pretitle{
+        font-size: 28px;
+        line-height: 27px;
+        max-width: 100%;
+        margin-top: 0;
+        margin-bottom: 75px;
+    }
+
+    .partfotio{
+        margin-bottom: 75px;
+        border: none;
+    }
+
+    .work{
+        margin-bottom: 75px;
+        border: none;
+    }
+
+    .work-title{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .work-inner{
+        margin-bottom: 75px;
+    }
+
+    .work-card{
+        width: 100%;
+    }
+
+    .step-title{
+        max-width: 100%;
+        margin-bottom: 75px;
+    }
+
+    .step-wraper{
+        flex-direction: column;
+    }
+
+    .step-item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .first-img::after{
+        display: none;
+    }
+    
+    .third-img::before{
+        display: none;
+    }
+
+    .more{
+        margin-bottom: 75px;
+        border: none;
+    }
+
+    .more-title{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .more-inner{
+        flex-direction: column;
+    }
+
+    .more-item{
+        width: 100%;
+    }
+
+    .more-content{
+        flex-direction: column;
+    }
+
+    .more-content p{
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    .song{
+        margin-top: 0;
+    }
+
+    .light{
+        margin-bottom: 0;
+    }
+
+    .rates{
+        margin-bottom: 75px;
+    }
+
+    .rates-title{
+        line-height: 40px;
+    }
+
+    .rates-card{
+        flex-direction: column;
+    }
+
+    .rates-item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .feedback{
+        margin-bottom: 75px;
+    }
+
+    .feedback-card{
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .feedback-text{
+        margin: 0 auto;
+    }
+
+    .footer-top{
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .footer-info{
+        margin-bottom: 30px;
+    }
+
+    .footer-info img{
+        margin-bottom: 30px;
+    }
+
+    .footer-contacts{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-contacts a{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .footer-title{
+        text-align: center;
+    }
+
+    .footer-form{
+        flex-direction: column;
+    }
+
+    .footer-form input{
+        max-width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .footer-button{
+        width: 100%;
+    }
+
+    .footer-bottom{
+        flex-direction: column;
+    }
+
+    .footer-bottom p{
+        margin-bottom: 15px;
+    }
+
 }
