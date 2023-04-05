@@ -49,6 +49,12 @@ a{
     position: unset;
 }
 
+.btn-close{
+    background-image: none;
+    width: fit-content;
+    opacity: 1;
+}
+
 .bg-body-tertiary{
     background-color: transparent !important;
 }
@@ -61,6 +67,22 @@ a{
 
 .navbar-expand-lg .navbar-nav{
     align-items: center;
+}
+
+.logo-inner{
+    display: flex;
+    align-items: center;
+}
+
+.logo-inner img{
+    margin-right: 15px;
+}
+
+.logo-inner p{
+    font-weight: 900;
+    color: #f5f5f5;
+    text-transform: uppercase;
+    font-size: 27px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{
@@ -628,12 +650,12 @@ a{
     margin-bottom: 130px;
 }
 
-.clients-slider-item{
-    width: 33% !important;
-}
-
 .clients-slider-item img{
     margin: 0 auto;
+}
+
+.slick-clients-prev, .slick-clients-next{
+    display: none;
 }
 
 .footer{
@@ -744,6 +766,61 @@ a{
 
 /* Устройства X-Small (портретные телефоны, менее 576 пикселей) */
 @media (max-width: 576px) {
+    
+    .navbar-toggler{
+        border: none;
+        outline: none;
+    }
+
+    .navbar-toggler:hover{
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+    
+    .navbar-toggler-icon{
+        background-image: url(../img/icon/menu-burger.png);
+    }
+    
+    .offcanvas{
+        background: linear-gradient(180deg, #0185FF 0%, rgba(0, 224, 255, 0.28) 70.83%, rgba(0, 224, 255, 0) 100%);
+        width: 100% !important;
+    }
+
+    .offcanvas-header{
+        padding: 35px;
+    }
+
+    .offcanvas-body{
+        padding: 35px;
+        padding-top: 0;
+    }
+    
+    .navbar-expand-lg .navbar-nav {
+        align-items: flex-start !important;
+    }
+    
+    .nav-item-mobile{
+        margin-bottom: 20px;
+    }
+    
+    .nav-link-mobile{
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .btn-close{
+        background-image: none;
+        width: 100%;
+        opacity: 1;
+    }
+
+    .btn-label{
+        background-image: url(../img/icon/delete.png) !important;
+        width: fit-content;
+    }
+     
     .main-info{
         flex-direction: column;
     }
@@ -783,7 +860,7 @@ a{
     }
 
     .banner-text{
-        font-size: 32px;
+        font-size: 27px;
         line-height: 44px;
     }
 
@@ -811,6 +888,21 @@ a{
         border: none;
     }
 
+    .slick-prev{
+        right: 300px;
+        top: 100%;
+    }
+
+    .slick-next{
+        left: 300px;
+        top: 100%;
+    }
+
+    .video-inner{
+        border-radius: 10px;
+        border: none;
+    }
+
     .pretitle{
         font-size: 28px;
         line-height: 27px;
@@ -822,6 +914,10 @@ a{
     .partfotio{
         margin-bottom: 75px;
         border: none;
+    }
+
+    .category-slider-item img{
+        width: 100%;
     }
 
     .work{
@@ -845,6 +941,8 @@ a{
     .step-title{
         max-width: 100%;
         margin-bottom: 75px;
+        font-size: 35px;
+        line-height: 41px;
     }
 
     .step-wraper{
@@ -928,6 +1026,10 @@ a{
 
     .feedback-text{
         margin: 0 auto;
+    }
+
+    .slick-clients-prev, .slick-clients-next{
+        display: none !important;
     }
 
     .footer-top{
