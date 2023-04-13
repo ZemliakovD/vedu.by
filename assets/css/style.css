@@ -10,8 +10,8 @@ body{
 button{
     padding: 17px 25px;
     border-radius: 40px;
-    color: #f5f5f5;
-    border: 1px solid #f5f5f5;
+    color: #c00cae;
+    border: 1px solid #c00cae;
     background-color: transparent;
     cursor: pointer;
     font-weight: 500;
@@ -25,7 +25,7 @@ button{
 button:hover{
     background-color: #f5f5f5;
     box-shadow: 5px 5px 30px rgba(62, 92, 147, 0.2), inset -4px -4px 6px rgba(11, 11, 57, 0.2), inset 4px 4px 6px rgba(11, 11, 57, 0.2);
-    color: #008BF5;
+    color: #c00cae;
 }
 
 a{
@@ -38,7 +38,7 @@ a{
 }
 
 .main{
-    background: linear-gradient(180deg, #0185FF 0%, rgba(0, 224, 255, 0.28) 70.83%, rgba(0, 224, 255, 0) 100%);
+    background: linear-gradient(0deg, rgba(13,12,13,1) 0%, rgba(51,48,51,1) 100%);
 }
 
 .header{
@@ -80,9 +80,11 @@ a{
 
 .logo-inner p{
     font-weight: 900;
-    color: #f5f5f5;
     text-transform: uppercase;
     font-size: 27px;
+    color: #c00cae;
+    text-shadow: 0px 0px 36px rgb(165 252 235 / 20%);
+    filter: drop-shadow(0px 0px 62px rgba(46, 236, 197, 0.15));
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{
@@ -93,7 +95,7 @@ a{
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    color: #f5f5f5;
+    color: #c00cae;
     transition: all .3s;
 }
 
@@ -124,12 +126,15 @@ a{
     font-size: 70px;
     line-height: 78px;
     text-transform: uppercase;
-    color: #f5f5f5;
+    color: #c00cae;
     margin-bottom: 70px;
+    text-shadow: 0px 0px 36px rgb(165 252 235 / 20%);
+    filter: drop-shadow(0px 0px 62px rgba(46, 236, 197, 0.15));
 }
 
 .main-banner img{
     width: 100%;
+    filter: drop-shadow(0px 0px 62px rgba(46, 236, 197, 0.15));
 }
 
 .button-panel{
@@ -139,16 +144,18 @@ a{
 
 .main-button{
     margin-right: 30px;
-    background: linear-gradient(180deg, #008BF5 0%, #00D7F5 100%);
+    background: linear-gradient(0deg, rgba(192,12,174,1) 0%, rgba(249,94,233,1) 100%);
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
-    border: 1px solid #008BF5;
+    color: #f5f5f5;
+    border: 1px solid #c00cae;
+    filter: drop-shadow(0px 0px 62px rgba(46, 236, 197, 0.15));
 }
 
 .main-button:hover{
     color: #f5f5f5;
-    border: 1px solid #008BF5;
+    border: 1px solid #c00cae;
 }
 
 .main-button i{
@@ -166,7 +173,7 @@ a{
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    color: #008BF5;
+    color: #c00cae;
 }
 
 .banner{
@@ -202,7 +209,7 @@ a{
     margin-bottom: 75px;
     text-transform: uppercase;
     text-align: center;
-    color: #008BF5;
+    color: #c00cae;
 }
 
 .super-cards{
@@ -233,12 +240,12 @@ a{
 }
 
 .partfotio{
-    border-top: 1px solid #008BF5;
+    border-top: 1px solid #c00cae;
     margin-bottom: 165px;
 }
 
 .pretitle{
-    background: #008BF5;
+    background: linear-gradient(0deg, rgba(192,12,174,1) 0%, rgba(249,94,233,1) 100%);
     border-radius: 50px;
     padding: 20px 100px;
     font-weight: 800;
@@ -263,7 +270,7 @@ a{
     line-height: 42px;
     text-transform: uppercase;
     text-align: center;
-    color: #008BF5;
+    color: #c00cae;
     margin-bottom: 40px;
 }
 
@@ -282,16 +289,20 @@ a{
     margin-bottom: 60px;
 }
 
+.category-slider-item img{
+    width: 95%;
+}
+
 .slick-prev{
     width: 52px;
     height: 52px;
     padding-top: 26px;
     background-color: #fff;
     border-radius: 50%;
-    box-shadow: 0px 0px 1px #0094FF;
+    box-shadow: 0px 0px 1px #c00cae;
     position: absolute;
     top: 43%;
-    right: 1238px;
+    right: 98%;
     z-index: 1;
 }
 
@@ -307,11 +318,11 @@ a{
     padding-top: 26px;
     background-color: #fff;
     border-radius: 50%;
-    box-shadow: 0px 0px 1px #0094FF;
+    box-shadow: 0px 0px 1px #c00cae;
     position: absolute;
     z-index: 1;
     top: 43%;
-    left: 1238px;
+    left: 96.5%;
 }
 
 .slick-next i{
@@ -323,23 +334,36 @@ a{
 .category-gallery{
     padding-top: 15px;
     padding-bottom: 15px;
-    border-top: 20px dashed #008BF5;
-    border-bottom: 20px dashed #008BF5;
+    border-top: 20px dashed #c00cae;
+    border-bottom: 20px dashed #c00cae;
 }
 
 .video-inner{
-    border: 40px solid #000000;
+    border: 40px solid #c00cae;
     border-radius: 60px;
     overflow: hidden;
-    background-color: #000;
+    max-height: 685px;
+}
+
+.video-slider .slick-prev{
+    top: 46%;
+    right: 95%;
+}
+
+.video-slider .slick-next{
+    top: 46%;
+    left: 95.2%;
 }
 
 .video-inner video{
-    width: 100%;
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
 }
 
 .work{
-    border-top: 1px solid #008BF5;
+    border-top: 1px solid #c00cae;
     margin-bottom: 185px;
 }
 
@@ -358,7 +382,7 @@ a{
 .work-card{
     width: 32%;
     background: #FFFFFF;
-    box-shadow: 1px 1px 20px rgba(0, 139, 245, 0.7);
+    box-shadow: 1px 1px 20px rgb(245 0 204 / 70%);
     border-radius: 30px;
     margin-bottom: 30px;
 }
@@ -378,7 +402,7 @@ a{
     font-size: 60px;
     line-height: 74px;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px #008BF5;
+    -webkit-text-stroke: 2px #c00cae;
     margin-right: 20px;
 }
 
@@ -386,7 +410,7 @@ a{
     font-weight: 900;
     font-size: 22px;
     line-height: 26px;
-    color: #008BF5;
+    color: #c00cae;
     letter-spacing: -0.02em;
     text-transform: uppercase;
 }
@@ -404,7 +428,8 @@ a{
 }
 
 .card-bottom img{
-    margin-top: 100px;
+    margin-top: 135px;
+    width: 50%;
 }
 
 .special-margin{
@@ -420,7 +445,7 @@ a{
     text-transform: uppercase;
     margin: 0 auto;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 2px #008BF5;
+    -webkit-text-stroke: 2px #c00cae;
     margin-bottom: 90px;
 }
 
@@ -455,15 +480,15 @@ a{
 }
 
 .first-img .step-info{
-    background: #0094FF;
+    background: #e356df;
 }
 
 .second-img .step-info{
-    background: #05C3DD;
+    background: #d307cd;
 }
 
 .third-img .step-info{
-    background: #FF6231;
+    background: #d53a09;
 }
 
 .step-info{
@@ -490,7 +515,7 @@ a{
 }
 
 .more{
-    border-top: 1px solid #008BF5;
+    border-top: 1px solid #c00cae;
     margin-bottom: 130px;
 }
 
@@ -521,7 +546,7 @@ a{
     font-weight: 900;
     font-size: 30px;
     line-height: 36px;
-    color: #008BF5;
+    color: #c00cae;
     text-transform: uppercase;
     padding-bottom: 25px;
     max-width: 85px;
@@ -567,7 +592,7 @@ a{
 
 .rates-item{
     width: 30%;
-    background: #0094FF;
+    background: #c00cae;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
     text-align: center;
@@ -603,6 +628,11 @@ a{
     border-top: 1px solid #f5f5f5;
 }
 
+.rates-button{
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+}
+
 .cost{
     font-weight: 900;
     font-size: 31px;
@@ -634,7 +664,7 @@ a{
     font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
-    color: #008BF5;
+    color: #c00cae;
     margin-bottom: 25px;
 }
 
@@ -659,7 +689,7 @@ a{
 }
 
 .footer{
-    background: linear-gradient(180deg, #008BF5 0%, #038EF3 43.23%, #06D5F1 95.83%);
+    background: linear-gradient(0deg, rgba(13,12,13,1) 0%, rgba(51,48,51,1) 100%);
 }
 
 .footer-inner{
@@ -675,7 +705,11 @@ a{
     align-items: center;
 }
 
-.footer-info img{
+.footer-info .logo-inner p{
+    color: #f5f5f5;
+}
+
+.footer-info .logo-inner{
     margin-bottom: 70px;
 }
 
@@ -726,7 +760,7 @@ a{
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    color: #008BF5;
+    color: #000000;
 }
 
 .footer-button{
@@ -739,7 +773,8 @@ a{
 
 .footer-button:hover{
     background: #f5f5f5;
-    color: #008BF5;
+    color: #c00cae;
+    border: 2px solid #c00cae;
 }
 
 .footer-bottom{
@@ -783,7 +818,7 @@ a{
     }
     
     .offcanvas{
-        background: linear-gradient(180deg, #0185FF 0%, rgba(0, 224, 255, 0.28) 70.83%, rgba(0, 224, 255, 0) 100%);
+        background: linear-gradient(0deg, rgba(13,12,13,1) 0%, rgba(51,48,51,1) 100%);
         width: 100% !important;
     }
 
@@ -918,6 +953,19 @@ a{
 
     .category-slider-item img{
         width: 100%;
+    }
+
+    .video-inner video{
+        width: 70%;
+        border-radius: 10px;
+    }
+
+    .video-slider .slick-prev{
+        right: 85%;
+    }
+
+    .video-slider .slick-next{
+        left: 85.2%;
     }
 
     .work{
