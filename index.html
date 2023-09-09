@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Productly</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="font/font.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section class="wrapper">
+    <video width="100%" height="auto" preload="auto" autoplay="autoplay"
+    loop="loop" poster="img/alter-bg.jpg">
+        <source src="img/video-bg.mp4" type="video/mp4"></source>
+        <source src="img/video-bg.webm" type="video/webm"></source>
+        <source src="img/video-bg.ogv" type="video/ogg"/>
+    </video>
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <div class="header">
+            <nav class="navbar bg-body-tertiary fixed-top head-navbar">
+              <div class="container-fluid">
+                <div class="menu-wrap">
+                  <div class="menu-logo">
+                    <img src="img/logo.png" alt="">
+                    <div class="logo-text">
+                      <a class="navbar-brand" href="#">Ведущий Влад Рынкевич</a>
+                      <p>Ваш лучший праздик с лучшим ведущим</p>
+                    </div>
+                  </div>
+                  <div class="header-menu">
+                    <ul class="navbar-nav pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Главная</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Обо мне</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Услуги</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Портфолио</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Блог</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                  aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header">
+                    <a href="#" class="logo-mobile">
+                      <img src="img/logo.png" alt="">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+                  </div>
+                  
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Обо мне</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Услуги</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Портфолио</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Блог</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                      </li>
+                      <li class="nav-item head-phone">
+                        <a class="nav-link phone-link" href="tel:+375291249839">+375291249830</a>
+                      </li>
+                      <li class="nav-item head-sosial">
+                        <a href="https://www.instagram.com/" class="head-social-link">
+                          <img src="img/icons/insta.png" alt="">
+                        </a>
+                        <a href="https://web.telegram.org/a/" class="head-social-link">
+                          <img src="img/icons/telega.png" alt="">
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="main">
+            <h1>Ведущий мероприятий <span>Влад Рынкевич</span></h1>
+            <p>Мы создаем кроссплатформенные мобильные приложения и веб-платформы и находим для них лучшие решения.</p>
+            <button class="button main-button">Заполнить бриф</button>
+          </div>
+          <div class="counter">
+            <div class="counter-iten">
+              <span>4+</span>
+              <p>Года опыта</p>
+            </div>
+            <div class="counter-iten">
+              <span>4+</span>
+              <p>Года опыта</p>
+            </div>
+            <div class="counter-iten">
+              <span>4+</span>
+              <p>Года опыта</p>
+            </div>
+            <div class="counter-iten">
+              <span>4+</span>
+              <p>Года опыта</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <span>Обо мне</span>
+          <div class="about-inner">
+            <img src="" alt="">
+            <div class="about-content">
+              <h2>Почему я?</h2>
+              <p>К услугам наших клиентов разработка программного обеспечения на заказ, проектирование пользовательских
+                интерфейсов, создание сайтов (в том числе на основе индивидуальной CMS) и их поддержка</p>
+              <p>Мы также предлагаем услугу IT-консалтинга — налаживание работы любых информационно-аналитических систем
+                и онлайн-решений компании для большей эффективности бизнес-процессов. </p>
+              <p>Сегодня компания «Union Smart Technology» имеет представительства с умелыми project‑менеджерами в РФ и
+                Словакии.</p>
+              <p>Такая география позволяет привлекать наиболее ответственных и квалифицированных программистов и живо
+                реагировать на потребности заказчиков со всего света, сохраняя комфортный уровень цен.</p>
+              <div class="about-content-button">
+                <a href="#" class="butoon about-link">Контакты</a>
+                <button class="utton about-button">Читать далее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="works">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <span>Что я делаю</span>
+          <h2>Список услуг</h2>
+          <div class="works-card">
+            <div class="top-row">
+              <div class="left-card">
+                <div class="b-card">
+                  <p>Mobile Applications</p>
+                </div>
+              </div>
+              <div class="right-card">
+                <div class="card right-card-item">
+                  <div class="card-inner">
+                    <p>Chatbots</p>
+                  </div>
+                </div>
+                <div class="card right-card-item">
+                  <div class="card-inner">
+                    <p>Websites</p>
+                  </div>
+                </div>
+                <div class="card right-card-item">
+                  <div class="card-inner">
+                    <p>AR/VR</p>
+                  </div>
+                </div>
+                <div class="card right-card-item">
+                  <div class="card-inner">
+                    <p>Outsourcing</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-row">
+              <div class="card bottom-card">
+                <div class="card-inner">
+                  <p>UX/UI design</p>
+                </div>
+              </div>
+              <div class="card bottom-card">
+                <div class="card-inner">
+                  <p>Analytics</p>
+                </div>
+              </div>
+              <div class="card bottom-card">
+                <div class="card-inner">
+                  <p>Consulting</p>
+                </div>
+              </div>
+              <div class="card bottom-card">
+                <div class="card-inner">
+                  <p>Server development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="button works-button">Оставить зявку</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="b-gray"></section>
+  <section class="portfolio">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <span>Портфолио</span>
+          <h2>Галерея фотографий</h2>
+          <p>Мы специализируемся на предоставлении программного обеспечения высшего качества и предоставлении
+            высококвалифицированных команд с опытом в области разработки блокчейнов, аналитики больших данных и AI/ML, а
+            также услуг по разработке программного обеспечения на заказ.</p>
+          <div class="portfolio-inner">
+            <div class="portfolio-top">
+              <div class="portfolio-top-item">
+                <img src="img/portfolio_1.jpg" alt="">
+                <p>Мобильный контроль</p>
+                <span>Сервис для работы с клиентами и партнерами</span>
+              </div>
+              <div class="portfolio-top-item">
+                <img src="img/portfolio_2.jpg" alt="">
+                <p>Голосовое управление</p>
+                <span>Сервис для работы по задачам</span>
+              </div>
+              <div class="portfolio-top-item">
+                <img src="img/portfolio_3.jpg" alt="">
+                <p>Vroomgames</p>
+                <span>Сервис для работы со списками заказов</span>
+              </div>
+              <div class="portfolio-top-item">
+                <img src="img/portfolio_4.jpg" alt="">
+                <p>ATOL-бонус</p>
+                <span>Мобильное приложение для профессионалов</span>
+              </div>
+            </div>
+            <div class="partfolio-bottom">
+              <div class="partfolio-bottom-item">
+                <img src="img/portfolio_5.jpg" alt="">
+                <p>Prorab-x</p>
+                <span>Мобильное приложение для строителей</span>
+              </div>
+              <div class="partfolio-bottom-item">
+                <img src="img/portfolio_6.jpg" alt="">
+                <p>Актуаль</p>
+                <span>Сайт промом игры</span>
+              </div>
+            </div>
+          </div>
+          <div class="partfolio-nav">
+            <a href="#" class="button partfolio-link">Портфолио</a>
+            <button class="button portfolio-button">Заказать звонок</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="advantages">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <span>Мои</span>
+          <h2>Преимущества</h2>
+          <p>Основная ценность нашей компании - создание качественного продукта и удовлетворение потребностей клиента.
+            Поэтому перед началом разработки мы проводим маркетинговые исследования и помогаем клиенту определить
+            стратегию развития продукта.</p>
+          <div class="advantages-inner">
+            <div class="advantages-cards">
+              <div class="advantages-item">
+                <img src="img/icons/icon_1.png" alt="">
+                <span>Разработка программного обеспечения</span>
+                <p>Мы обеспечиваем полный цикл разработки программного обеспечения, развертывания и послерелизной
+                  поддержки. Вы получите функциональный, масштабируемый и безопасный продукт, идеально подходящий для
+                  бизнеса.
+                  MVP за 90 дней.</p>
+              </div>
+              <div class="advantages-item">
+                <img src="img/icons/icon_2.png" alt="">
+                <span>«Спасение» вашего проекта</span>
+                <p>Мы присоединяемся к любому этапу разработки, анализируем текущее состояние продукта, возвращаем
+                  процесс разработки в нужное русло и выпускаем продукт вовремя.</p>
+              </div>
+              <div class="advantages-item">
+                <img src="img/icons/icon_3.png" alt="">
+                <span>Создание выделенного  ИТ-центра</span>
+                <p>Мы предоставляем выделенные команды на полный рабочий день, включающие аналитиков, дизайнеров,
+                  разработчиков, QA-инженеров и менеджеров проектов. Соберите свою команду всего за несколько дней.</p>
+              </div>
+              <div class="advantages-item">
+                <img src="img/icons/icon_4.png" alt="">
+                <span>Профессионализм команды</span>
+                <p>Избегайте затрат на инвестиции в развитие внутренних навыков. Нанимайте профессионалов с необходимыми
+                  навыками для обеспечения результатов проекта и своевременной доставки.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="clients">
+    <div class="row">
+      <div class="col-12">
+        <h2>Клиенты</h2>
+        <div class="clients-inner">
+          <img src="img/clients/clients_1.png" alt="">
+          <img src="img/clients/clients_2.png" alt="">
+          <img src="img/clients/clients_3.png" alt="">
+          <img src="img/clients/clients_4.png" alt="">
+          <img src="img/clients/clients_5.png" alt="">
+          <img src="img/clients/clients_5.png" alt="">
+          <img src="img/clients/clients_4.png" alt="">
+          <img src="img/clients/clients_3.png" alt="">
+          <img src="img/clients/clients_2.png" alt="">
+          <img src="img/clients/clients_1.png" alt="">
+          <img src="img/clients/clients_4.png" alt="">
+          <img src="img/clients/clients_2.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="p-back"></section>
+  <section class="connection">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <span>Связаться</span>
+          <h2>Готов предложить Вам лучшие условия на мероприятие!</h2>
+          <div class="connection-inner">
+            <div class="connection-content">
+              <div class="connection-info">
+                <h4>Есть идея праздника?</h4>
+                <p>У вас есть уже существующий проект, который вы хотите усовершенствовать? Вы хотите воплотить в жизнь
+                  смелую идею, но вам нужна помощь? Или вы вообще не знаете, с чего начать реализацию проекта?</p>
+                <span>Позвоните или напишите мне:</span>
+                <a href="mailto:info@rynkevich.by" class="connection-link">info@rynkevich.by</a>
+                <a href="tel:+375291249830" class="connection-link">+375291249830</a>
+                <div class="social">
+                  <a href="https://www.instagram.com/" class="social-link">
+                    <img src="img/icons/insta.png" alt="">
+                  </a>
+                  <a href="https://web.telegram.org/a/" class="social-link">
+                    <img src="img/icons/telega.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="connection-module">
+                <h3>Связаться со мной</h3>
+                <p>Оставьте свою контактную информацию, и мы  с радостью свяжемся с вами!</p>
+                <form class="connection-form">
+                  <input type="text" class="form-control" placeholder="Имя" aria-label="Имя">
+                  <select id="inputState" class="form-select">
+                    <option selected>Мероприятие</option>
+                    <option>...</option>
+                  </select>
+                  <input type="email" class="form-control" id="inputEmail4">
+                  <textarea class="form-control" aria-label="С текстовым полем"></textarea>
+                  <div class="form-nav">
+                    <button type="submit" class="button form-button btn btn-primary">Отправить</button>
+                    <p>Нажимая на кнопку, вы соглашаетесь с <a href="#">Политикой конфидециальности</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <span>FAQ</span>
+          <h2>Возможно, у вас остались вопросы. Готов ответить</h2>
+          <div class="faq-inner">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Элемент аккордеона #1
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                    the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Элемент аккордеона #2
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                    the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
+                    this being filled with some actual content.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Элемент аккордеона #3
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate
+                    the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                    exciting happening here in terms of content, but just filling up the space to make it look, at least
+                    at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <div class="footer-inner">
+            <div class="footer-top">
+              <div class="footer-info">
+                <span>Ведущий Владислав Рынкевич</span>
+                <a href="mailto:info@rynkevich.by" class="connection-link">info@rynkevich.by</a>
+                <a href="tel:+375291249830" class="connection-link">+375291249830</a>
+                <p class="adress">24 Entuziastov street, Saint Petersburg, 191 119</p>
+              </div>
+              <div class="footer-menu">
+                <ul class="left-menu">
+                  <li><a href="#">Главная</a></li>
+                  <li><a href="#">Обо мне</a></li>
+                  <li><a href="#">Услуги</a></li>
+                </ul>
+                <ul class="right-menu">
+                  <li><a href="#">Портфолио</a></li>
+                  <li><a href="#">Блог</a></li>
+                  <li><a href="#">.Контакты</a></li>
+                </ul>
+              </div>
+              <div class="footer-social">
+                <ul>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Telegram</a></li>
+                  <li><a href="#">Viber</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <p>Разработка сайта <a href="#">STUDIO X-DEV</a></p>
+              <div class="politics">
+                <a href="#">Политика конфиденциальности </a>
+                <a href="#">Cookies Policy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
